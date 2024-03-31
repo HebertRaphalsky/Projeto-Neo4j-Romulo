@@ -85,7 +85,7 @@ public class AlunoController {
   }
 
 
-  @Operation(summary = "Vincula atuação", description = "Recebe um id de aluno e um id de filme indicando a atuação do aluno naquele determinado filme", tags = {
+  @Operation(summary = "Vincula Grupo ", description = "Recebe um id de aluno e um id de grupo indicando a atuação do aluno naquele determinado filme", tags = {
     "Alunos" }, responses = {
         @ApiResponse(responseCode = "200", description = "Atuação ok")
     }, method = "POST")
